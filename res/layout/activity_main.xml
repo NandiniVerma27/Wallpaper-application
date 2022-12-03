@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeOne"
+                    android:id="@+id/imageButton1"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme1"
+                    android:contentDescription="@string/theme_1"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTwo"
+                    android:id="@+id/imageButton2"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/theme2"
+                    android:contentDescription="@string/theme_2"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeThree"
+                    android:id="@+id/imageButton3"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/theme3"
+                    android:contentDescription="@string/theme_3"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeFour"
+                    android:id="@+id/imageButton4"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme4"
+                    android:contentDescription="@string/theme_4"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeFive"
+                    android:id="@+id/imageButton5"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/theme5"
+                    android:contentDescription="@string/theme_5"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeSix"
+                    android:id="@+id/imageButton6"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/theme6"
+                    android:contentDescription="@string/theme_6"
+                    android:scaleType="fitCenter"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeSeven"
+                    android:id="@+id/imageButton7"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme7"
+                    android:contentDescription="@string/theme_7"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeEight"
+                    android:id="@+id/imageButton8"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/theme8"
+                    android:contentDescription="@string/theme_8"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeNine"
+                    android:id="@+id/imageButton9"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/theme9"
+                    android:contentDescription="@string/theme_9"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTen"
+                    android:id="@+id/imageButton10"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme10"
+                    android:contentDescription="@string/theme_10"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeEleven"
+                    android:id="@+id/imageButton11"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/theme11"
+                    android:contentDescription="@string/theme_11"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTwelve"
+                    android:id="@+id/imageButton12"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/theme12"
+                    android:contentDescription="@string/theme_12"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeThirteen"
+                    android:id="@+id/imageButton13"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme13"
+                    android:contentDescription="@string/theme_13"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeFourteen"
+                    android:id="@+id/imageButton14"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/theme14"
+                    android:contentDescription="@string/theme_14"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeFifteen"
+                    android:id="@+id/imageButton15"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/theme15"
+                    android:contentDescription="@string/theme_15"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeSixteen"
+                    android:id="@+id/imageButton16"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme16"
+                    android:contentDescription="@string/theme_16"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeSeventeen"
+                    android:id="@+id/imageButton17"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/theme17"
+                    android:contentDescription="@string/theme_17"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeEighteen"
+                    android:id="@+id/imageButton18"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/theme18"
+                    android:contentDescription="@string/theme_18"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeNineteen"
+                    android:id="@+id/imageButton19"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme19"
+                    android:contentDescription="@string/theme_19"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTwenty"
+                    android:id="@+id/imageButton20"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/theme20"
+                    android:contentDescription="@string/theme_20"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTone"
+                    android:id="@+id/imageButton21"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/theme21"
+                    android:contentDescription="@string/theme_21"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTtwo"
+                    android:id="@+id/imageButton22"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme22"
+                    android:contentDescription="@string/theme_22"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTthree"
+                    android:id="@+id/imageButton23"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/theme23"
+                    android:contentDescription="@string/theme_23"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTfour"
+                    android:id="@+id/imageButton24"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/theme24"
+                    android:contentDescription="@string/theme_24"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:clickable="true"
+                    android:onClick="themeTfive"
+                    android:id="@+id/imageButton25"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/theme25"
+                    android:contentDescription="@string/theme_25"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="16dp"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

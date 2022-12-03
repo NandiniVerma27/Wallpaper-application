@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:font="@font/akaya"/>
+    <font
+        android:font="@font/regge"/>
+    <font
+        android:font="@font/nicome"/>
+    <font
+        android:font="@font/merienda"/>
+    <font
+        android:font="@font/courgette"/>
+    <font
+        android:font="@font/tangerine"/>
+    <font
+        android:font="@font/caveat"/>
+    <font
+        android:font="@font/kaushan"/>
+    <font
+        android:font="@font/satisfy"/>
+    <font
+        android:font="@font/sacremanto"/>
+    <font
+        android:font="@font/bad"/>
+    <font
+        android:font="@font/handlee"/>
+    <font
+        android:font="@font/nanum"/>
+    <font
+        android:font="@font/patric"/>
+    <font
+        android:font="@font/amatic"/>
+    <font
+        android:font="@font/itin"/>
+    <font
+        android:font="@font/dance"/>
+    <font
+        android:font="@font/shadows"/>
+    <font
+        android:font="@font/lobster"/>
+    <font
+        android:fontWeight="800"
+        android:font="@font/segoepr"/>
+    <font
+        android:font="@font/gabriola"/>
+
+
+</font-family>
